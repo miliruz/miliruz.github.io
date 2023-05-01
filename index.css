@@ -1,0 +1,131 @@
+		*{
+			box-sizing: border-box;
+		}
+		h1{
+			text-align-last: center;
+			font-family: consolas;
+			margin-bottom: 30px;
+		}
+
+	
+		p{	
+
+			padding-right:30px;
+			padding-bottom:30px;
+			padding-left:15px;
+			padding-top:39px; 
+			font-weight: bold;
+			border: 3px solid black;
+			background-color: #949494;
+			width: 95%;
+			height: 150px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: Helvetica;
+			color: black;
+		}
+		div{
+			position:relative;
+		}
+		#section1{
+			overflow: none;
+			padding-top: 6px;
+			text-align: center;
+			font-weight: bold;
+			border: 3px solid black;
+			background-color: #F5B2C2;
+			float:right;
+			width: 117px;
+			height:35px;
+			margin bottom :17px;
+			font-family: Helvetica;
+			color: black;
+			position: relative;
+			
+
+	}
+	#section2{
+		overflow: none;
+			padding-top: 6px;
+			text-align: center;
+			font-weight: bold;
+			border: 3px solid black;
+			background-color: #E3504F;
+			float:right;
+			width: 117px;
+			height:35px;
+			margin bottom :17px;
+			font-family: Helvetica;
+			color: white;
+			position: relative;
+			
+
+	}
+	#section3{
+			overflow:none;
+			padding-top: 6px;
+			text-align: center;
+			font-weight: bold;
+			border: 3px solid black;
+			background-color: #E7CE73;
+			float: right;
+			width: 141px;
+			height:35px;
+			margin bottom :17px;
+			font-family: Helvetica;
+			color: black;
+			position: relative;
+	}
+		/* simple responsive framework. */
+		.row {
+			width: 100%;
+		}
+		/* large device only*/
+		@media (min-width: 992px){
+			.col-lg-1,.col-lg-2, .col-lg-3{
+				float:left;
+				
+			}
+			.col-lg-1{
+				width: 33.3333333%;
+			}
+			.col-lg-2{
+				width: 66.6666667%;
+			}
+			.col-lg-3{
+				width: 100%;
+			}
+			
+		}
+		/*medium screen devices cambia el lg a md (medium)*/
+		@media (min-width: 768px) and (max-width: 991px){
+			.col-md-1,.col-md-2, .col-md-3{
+				float:left;
+				
+			}
+			.col-md-1{
+				width: 50%;
+			}
+			.col-md-2{
+				width: 50%;
+			}
+			.col-md-3{
+				width: 100%;
+			}
+			
+		}
+		@media (max-width: 767px)  {
+			.col-sm-1,.col-sm-2, .col-sm-3{
+				float:left;
+				
+			}
+			.col-sm-1{
+				width: 100%;
+			}
+			.col-sm-2{
+				width: 100%;
+			}
+			.col-sm-3{
+				width: 100%;
+			}
+		}
